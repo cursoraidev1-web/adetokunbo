@@ -1,0 +1,8 @@
+{
+  "name": "Adetokunbo Ayodeji Consult",
+  "description": "A premier consultancy firm dedicated to career development, academic excellence, and strategic business growth.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
