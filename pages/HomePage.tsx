@@ -9,49 +9,49 @@ interface HomePageProps {
 const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
   const services: ServiceCardProps[] = [
     {
-      title: "Career Consulting",
-      description: "Expert CV reviews, LinkedIn optimization, interview preparation, and strategic career path planning to help you land your dream job.",
+      title: "Career Consulting & CV Writing",
+      description: "Professional CV writing for working professionals, LinkedIn optimization, interview preparation, and strategic career development guidance to secure meaningful employment.",
       icon: "work",
-      image: "https://lh3.googleusercontent.com/aida-public/AB6AXuDVbPRTPesGuXj8fxe-ebhSV9cBTT6QZZpP_9q70yJzAeguVfOjXoBhiX0nR8skm3JIN7XOSMWDiKXNB_4i-RkQqsbwFA0EcKUulJjw0iaX7zT23cC3wyRp4nItJ48HkpcjWwczPvXq_ZY2A0Ofa4lxYx9JTFtnjJMs5vJ2rfXIlTt9InKm8rrUObwJSiuRr5p41SaBxrFgkHpMmnPvqyOOsEFmGnupNq9O59VT5qjAX-dpi9CPlb1ONbgJ4ViPDhrG6Ux50pdDNb6I",
+      image: "https://images.unsplash.com/photo-1653669487003-7d89b2020f3c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       link: "#"
     },
     {
-      title: "Academic Support",
-      description: "Comprehensive guidance for university admissions, scholarship essays, thesis review, and academic excellence strategies.",
+      title: "Academic Support & Scholarships",
+      description: "Academic CV development, Statements of Purpose, scholarship advisory, university admissions guidance, and support for gaining admission to top institutions worldwide.",
       icon: "school",
-      image: "https://lh3.googleusercontent.com/aida-public/AB6AXuCsrazGeZ1QDe4d59hdXEBjsVoGdI7M_HFyFFNU0XJodAKX378Dw9FpPGCBY-tcfiTOpmYPv-rMHiy5rDnwJGok8U8_AqkUDZ201CPoxaSWJ1n4JEA_7f0aPZEL2taPu6NTrytruPLBPfOYjs9Wyi3z5v46Tv4VCARTpD3uxIaedfJU5GpB_CMaASbMSC_6Mxqfk_6tVN9v5stajBt_lhIGFRA-d8bAvVEZVIhTJf8T2YsDg3AT2BJikvR409O_tSwcsEHOP_fEB-Pw",
+      image: "https://images.unsplash.com/photo-1758519290830-5462f4924bb5?q=80&w=1031&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       link: "#"
     },
     {
-      title: "Research & Strategy",
-      description: "Data-driven market analysis, business plan development, and strategic consulting for startups and established enterprises.",
+      title: "Research & Business Strategy",
+      description: "Research proposals, undergraduate and postgraduate projects, dissertation support, business plans, professional documentation, and strategic consulting services.",
       icon: "query_stats",
-      image: "https://lh3.googleusercontent.com/aida-public/AB6AXuCfaE7uyk1jnXIXxHakDqCRhyPcNRTk1MKok5N40GKrLz-4XIL1pol2lZLyeiLXmmZW50WnzX8WumRCUcNdbCaiH-EPKQ40YSsrqlo4OIrXUhvTVnMH6-OJKvJcQeYvZ5Yyy79QCP2q3VRXdxqj5jt4XcJoJluKjYNCB9Xr3gwMheES57GBM3DRZjJnyXijevCjEv-WKKYYaznNN9P97fQDqFrNOsRGVPfw9Dq75LwFHyvKN-sWC54BvTS_dHvzT1nvBJjqpInWbSpv",
+      image: "https://img.freepik.com/free-photo/african-american-man-woman-solving-freelance-tasks-home_482257-118989.jpg",
       link: "#"
     }
   ];
 
   const testimonials: TestimonialProps[] = [
     {
-      name: "Michael T.",
-      role: "Senior Analyst",
-      quote: "The career consulting sessions were transformative. I was able to pivot into a completely new industry thanks to the strategic CV restructuring and interview coaching.",
+      name: "A.O.",
+      role: "Career Professional",
+      quote: "I got two interview invites within weeks of updating my CV. Both processes went well and I eventually received two job offers. I honestly wasn't expecting that.",
       rating: 5,
-      image: "https://lh3.googleusercontent.com/aida-public/AB6AXuAUOQ7BrXUvHP0yxCWiTBrxuTEp4Zuac6NhibQm5reZkOa0svC0AoPeZ_pbXMyNISh35bPfe-cYxX2Rej7Qy93gWtTvbOoBo285ZTo2b1rZUk7drU_bSwAJK_kAjTYo3_zFScc551wFNI02i-zHBWCvTw2UxwSZIV-Ewn_zF_DSbbJ8ExjdQOpEQqbRbrX-2KoQ9EDShDj7sa_h13P09Sp3njS7bkeNJEmWh5TjjKDtKqckoKIprGAxQZIXnJH9RdGkkR0jr0D9WWCK"
+      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop&q=80"
     },
     {
-      name: "Sarah L.",
-      role: "PhD Candidate",
-      quote: "Adetokunbo Ayodeji Consult helped me secure a full scholarship for my PhD program. Their review of my research proposal was detailed and insightful.",
+      name: "T.K.",
+      role: "Software Engineer",
+      quote: "I had been applying for months with no response. After my CV rewrite, I got shortlisted twice and secured a new role.",
       rating: 5,
-      image: "https://lh3.googleusercontent.com/aida-public/AB6AXuAWHkJFhKmXJ62LSicbYY-s6rg86uRyP6NJZdVDMkEZsRbG1AqgHSJD6F2qZ9LLPChDgxbaEhjvyPIVrTfrw18u9h3iBEFmWGFdESRAmMURkjGmwfZi5_X_nIvatHTX4dORaX1oR1_bxkMmV_qCd_8lE_Up6Pwl283cUSD8vTeorrh2TqW9-sHZv_DrXe5CznwOUMuTndpEHQfBQ88i0ImIXd5JeyOKH7_2_swcR9HM3GA-EcGTYgi8wCHTIBqY99C5wx_oNoN7FUYj"
+      image: "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?w=200&h=200&fit=crop&q=80"
     },
     {
-      name: "David K.",
-      role: "Tech Entrepreneur",
-      quote: "Their business strategy team provided the market clarity we needed to launch our new product line. The data-driven approach was exactly what our investors wanted to see.",
+      name: "R.A.",
+      role: "Graduate Student",
+      quote: "My SOP was accepted and I received admission into my chosen program. The structure and clarity made a big difference.",
       rating: 5,
-      image: "https://lh3.googleusercontent.com/aida-public/AB6AXuDa5TWKzDOk86csfZpIiFAa9wfcWk7c2zPeODqGEOq-uxelSHDLGIk17BKVQik5SvAUhxPg5KCLnxeScLbiVBf6brcaxil7mEU2XiYVDkI9qq-kUbAGT9ze-KQVsF7MWZq7SM4i2DZZpBCfbVx3tlh_IIY4Q216QIQ946L-_w48FMrr6MNco6MYrQ2yPoRQ0lbHauzt0Eh2t-b0qSjNA-N4-pHoZYMcKkkqQrUdq-FOtc-SV3pEzcDotoTArFgKKhounjSpI4EVVgNS"
+      image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=200&h=200&fit=crop&q=80"
     }
   ];
 
@@ -92,11 +92,15 @@ const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
               </div>
               <div className="mt-10 flex items-center justify-center lg:justify-start gap-4 text-sm text-slate-500 font-medium">
                 <div className="flex -space-x-2">
-                  {[1, 2, 3].map(i => (
-                    <div key={i} className="w-8 h-8 rounded-full border-2 border-white dark:border-slate-800 bg-slate-200 overflow-hidden">
-                      <img src={`https://picsum.photos/seed/${i + 10}/100`} alt="Avatar" className="w-full h-full object-cover" />
-                    </div>
-                  ))}
+                  <div className="w-8 h-8 rounded-full border-2 border-white dark:border-slate-800 bg-slate-200 overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?w=100&h=100&fit=crop&q=80" alt="Avatar" className="w-full h-full object-cover" />
+                  </div>
+                  <div className="w-8 h-8 rounded-full border-2 border-white dark:border-slate-800 bg-slate-200 overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&q=80" alt="Avatar" className="w-full h-full object-cover" />
+                  </div>
+                  <div className="w-8 h-8 rounded-full border-2 border-white dark:border-slate-800 bg-slate-200 overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=100&h=100&fit=crop&q=80" alt="Avatar" className="w-full h-full object-cover" />
+                  </div>
                 </div>
                 <span>Trusted by 500+ Professionals</span>
               </div>
@@ -106,7 +110,7 @@ const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
               <div className="absolute inset-0 bg-accent-gold rounded-3xl rotate-3 translate-x-4 translate-y-4 opacity-10" />
               <div className="relative aspect-[4/3] rounded-3xl overflow-hidden shadow-2xl border border-white/20">
                 <img 
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuDczNd4Glk9XIRCYbJJCF_DfRGQ1CYXvrqW8uSS-G_iNMUWFTqMfOKYmabD0zCTIa0cErHLeTTD0QlXVe_szKTyf_IaKuDAaJus_u7rnfmxvk9OsL2xydieKsjKteCJz1ywb80QwkGg7AXQMnGCu-FiOOCTv1fxcB_kB_D62a65o2AtPGqcM9DODdcr9vPAbwlFE9tCyzG9J0XuPLtPL6k1algBOtIu7blBuMmivEBmg-nXGrIWvjMWv_qTuH7Nt3Q3w-HLi93dJ9nr" 
+                  src="https://plus.unsplash.com/premium_photo-1681398556150-7fa0d1e72703?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
                   className="w-full h-full object-cover" 
                   alt="Business meeting"
                 />
@@ -219,12 +223,9 @@ const ServiceCard: React.FC<ServiceCardProps> = ({ title, description, icon, ima
         <span className="material-symbols-outlined text-2xl">{icon}</span>
       </div>
       <h4 className="text-2xl font-black text-slate-900 dark:text-white mb-4">{title}</h4>
-      <p className="text-slate-600 dark:text-slate-400 mb-8 leading-relaxed font-medium">
+      <p className="text-slate-600 dark:text-slate-400 leading-relaxed font-medium">
         {description}
       </p>
-      <button className="mt-auto inline-flex items-center text-primary font-black text-sm group-hover:gap-4 transition-all">
-        Learn More <span className="material-symbols-outlined text-lg ml-1">chevron_right</span>
-      </button>
     </div>
   </div>
 );

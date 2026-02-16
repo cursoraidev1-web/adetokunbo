@@ -1,6 +1,10 @@
 {
-  "name": "Adetokunbo Ayodeji Consult",
-  "description": "A premier consultancy firm dedicated to career development, academic excellence, and strategic business growth.",
+  "name": "Adetokunbo Ayodeji Consult Ltd",
+  "description": "A duly incorporated consulting firm (CAC: RC 8286332) dedicated to empowering individuals and organizations through career development, academic excellence, and research support. We serve clients globally with professional CV writing, academic support, scholarships, research proposals, business plans, and mentorship programs.",
+  "version": "1.0.0",
+  "author": "Adetokunbo Ayodeji Consult Ltd",
+  "contactEmail": "adetokunboayodejiconsult@gmail.com",
+  "contactPhone": "+2348162703599",
   "requestFramePermissions": [
     "camera",
     "microphone"

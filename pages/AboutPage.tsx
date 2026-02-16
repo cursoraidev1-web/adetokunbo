@@ -33,11 +33,19 @@ const AboutPage: React.FC = () => {
                 <h1 className="text-4xl md:text-6xl font-black text-slate-900 dark:text-white leading-[1.1] tracking-tight">
                   From Local Roots to Global Impact
                 </h1>
+                <div className="bg-accent-maroon/5 border-l-4 border-accent-maroon p-4 rounded-r-xl mb-4">
+                  <p className="text-sm font-bold text-slate-700 dark:text-slate-300">
+                    <span className="text-accent-maroon">CAC Registration Number:</span> RC 8286332
+                  </p>
+                </div>
                 <p className="text-slate-600 dark:text-slate-400 text-xl font-medium leading-relaxed">
-                  Adetokunbo Ayodeji Consult Ltd started as a vision to bridge the gap between ambition and achievement. Today, we are a premier consulting firm dedicated to career development and academic excellence.
+                  Adetokunbo Ayodeji Consult Ltd is a duly incorporated consulting firm dedicated to empowering individuals and organizations through career development, academic excellence, and research support. The firm was established to bridge the gap between potential and opportunity by delivering tailored, high-quality consulting services that align with global standards.
                 </p>
                 <p className="text-slate-600 dark:text-slate-400 text-xl font-medium leading-relaxed">
-                  Our journey has taken us from humble beginnings to becoming a trusted global brand for strategy and mentorship, helping thousands of individuals navigate their professional paths with confidence.
+                  Our journey began with a clear mission: to help people present their skills, ideas, and academic pursuits with clarity, confidence, and credibility. Over the years, we have grown into a trusted consulting brand serving clients across multiple countries, supporting professionals in securing meaningful employment, students in gaining admission and scholarships, and researchers in producing strong academic work.
+                </p>
+                <p className="text-slate-600 dark:text-slate-400 text-xl font-medium leading-relaxed">
+                  We adopt a client-centered approach, focusing on strategy, personalization, and measurable outcomes. Every engagement is guided by professionalism, integrity, and attention to detail. Beyond service delivery, we are committed to knowledge sharing and capacity building through training programs, workshops, and mentorship initiatives aimed at equipping young people and professionals with practical skills for long-term success.
                 </p>
               </div>
               <div className="flex flex-wrap gap-4 pt-4">
@@ -52,7 +60,7 @@ const AboutPage: React.FC = () => {
             <div className="flex-1 w-full">
               <div className="aspect-[4/3] rounded-3xl overflow-hidden shadow-2xl">
                 <img 
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuCbaKR5plO6f-F6PtkOCMPat6_Oj3sipmuXvC3nIQNi6YB4JIyJDTdgoScax_rEWjpEHJJW0ENah7tG_4aseeOPMQ38N7QL35emSGH7b6tFVWGDH1WcIOMOWhiCKOBUjgdnNrRr9w5tvLVLEukzXHkvZrQ87HonZcTnIbR47cEhKQH-YwuzyIyYvD0dqCL6aH7ekpnpc2rOOqUyaG3rLsK6ij1aDT6_GRofXFMYZJCAgnq0Vq1b1y_TaJxyrRF2dxLg2vf_fpLXxSlb" 
+                  src="https://images.unsplash.com/photo-1573167101669-476636b96cea?q=80&w=869&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
                   alt="Global Strategy" 
                   className="w-full h-full object-cover"
                 />
@@ -108,7 +116,7 @@ const AboutPage: React.FC = () => {
               <div className="absolute -top-10 -left-10 w-full h-full bg-primary/5 rounded-3xl -rotate-2" />
               <div className="relative aspect-square md:aspect-[5/4] rounded-3xl overflow-hidden shadow-2xl">
                 <img 
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuDoOyqVEHPxlyUS36tWePreWsF-EuKRhZghXriLognznN_Uf4rQ_2-sWllLGq2Q0IH3-MY-0HpOFgfj2dPWTBq0vKCxSU3huSUL6wEwljjfn8XoCh4I5DERDX7d0tTjIOxxOhlmeFNqIvWFyk1FTPWa_n9KVKsWhKvQzLCmyxhBs6q17vIdi8fChb4n4CUmk2oAjqgKDfbvKOLkS5bDeTxBUwFwxkAKPncn_18YZiyTWbpk6_iDjPnbsqh5qa-a5sq0sR1JQGV0jL_6" 
+                  src="https://plus.unsplash.com/premium_photo-1707155465598-72c956ca9bae?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
                   alt="Mentorship" 
                   className="w-full h-full object-cover"
                 />

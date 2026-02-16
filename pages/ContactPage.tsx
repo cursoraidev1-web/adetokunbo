@@ -11,9 +11,10 @@ const ContactPage: React.FC = () => {
     // Construct the WhatsApp message
     const phoneNumber = "2348162703599";
     const serviceLabels: Record<string, string> = {
-      career: "Career Development Advice",
-      academic: "Academic Consulting",
-      relocation: "Study Abroad / Relocation",
+      career: "Career Consulting & CV Writing",
+      academic: "Academic Support & Scholarships",
+      research: "Research & Business Strategy",
+      training: "Training & Mentorship",
       other: "General Inquiry"
     };
 
@@ -90,9 +91,10 @@ Looking forward to hearing from you!`;
                   className="w-full px-6 py-4 rounded-xl border-slate-200 dark:border-slate-700 dark:bg-slate-800 dark:text-white focus:ring-primary focus:border-primary transition-all"
                 >
                   <option value="">Select a service</option>
-                  <option value="career">Career Development Advice</option>
-                  <option value="academic">Academic Consulting</option>
-                  <option value="relocation">Study Abroad / Relocation</option>
+                  <option value="career">Career Consulting & CV Writing</option>
+                  <option value="academic">Academic Support & Scholarships</option>
+                  <option value="research">Research & Business Strategy</option>
+                  <option value="training">Training & Mentorship</option>
                   <option value="other">Other Inquiry</option>
                 </select>
               </div>
@@ -153,9 +155,10 @@ Looking forward to hearing from you!`;
                 <div className="pt-10 border-t border-white/20">
                   <p className="text-sm font-black uppercase tracking-widest opacity-80 mb-6">Connect with us</p>
                   <div className="flex gap-4">
-                    <SocialCircle label="LinkedIn" />
-                    <SocialCircle label="Facebook" />
-                    <SocialCircle label="Instagram" />
+                    <SocialCircle label="LN" href="https://www.linkedin.com/company/adetokunbo-ayodeji-consult-ltd" />
+                    <SocialCircle label="FB" href="https://www.facebook.com/profile.php?id=61571370628102" />
+                    <SocialCircle label="IG" href="https://www.instagram.com/adetokunboayodejiconsult" />
+                    <SocialCircle label="WA" href="https://wa.link/hu69qc" />
                   </div>
                 </div>
 
@@ -189,9 +192,9 @@ const ContactItem: React.FC<{ icon: string; label: string; value: string; href: 
   </a>
 );
 
-const SocialCircle: React.FC<{ label: string }> = ({ label }) => (
-  <a href="#" className="w-12 h-12 rounded-full border-2 border-white/20 flex items-center justify-center hover:bg-white/10 transition-colors text-xs font-bold">
-    {label.charAt(0)}
+const SocialCircle: React.FC<{ label: string; href?: string }> = ({ label, href = "#" }) => (
+  <a href={href} target="_blank" rel="noopener noreferrer" className="w-12 h-12 rounded-full border-2 border-white/20 flex items-center justify-center hover:bg-white/10 transition-colors text-xs font-bold">
+    {label}
   </a>
 );
 

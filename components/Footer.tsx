@@ -27,9 +27,10 @@ const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
               Empowering individuals and organizations to reach their full potential through expert consulting and strategic guidance.
             </p>
             <div className="flex gap-4">
-              <SocialIcon label="FB" />
-              <SocialIcon label="TW" />
-              <SocialIcon label="LN" />
+              <SocialIcon label="FB" href="https://www.facebook.com/profile.php?id=61571370628102" />
+              <SocialIcon label="IG" href="https://www.instagram.com/adetokunboayodejiconsult" />
+              <SocialIcon label="LN" href="https://www.linkedin.com/company/adetokunbo-ayodeji-consult-ltd" />
+              <SocialIcon label="WA" href="https://wa.link/hu69qc" />
             </div>
           </div>
 
@@ -48,10 +49,11 @@ const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
           <div>
             <h3 className="text-lg font-bold mb-6 text-accent-gold">Services</h3>
             <ul className="space-y-4">
-              <FooterLink label="Career Consulting" />
-              <FooterLink label="Academic Support" />
-              <FooterLink label="Business Strategy" />
-              <FooterLink label="Market Research" />
+              <FooterLink label="Career Consulting & CV Writing" />
+              <FooterLink label="Academic Support & Scholarships" />
+              <FooterLink label="Research Proposals & Projects" />
+              <FooterLink label="Business Plans & Strategy" />
+              <FooterLink label="Training & Mentorship" />
             </ul>
           </div>
 
@@ -73,7 +75,7 @@ const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
         </div>
 
         <div className="pt-10 border-t border-slate-800 flex flex-col md:flex-row justify-between items-center gap-6">
-          <p className="text-slate-500 text-xs">© 2024 Adetokunbo Ayodeji Consult Ltd. All rights reserved. CAC Registered: RC 8286332</p>
+          <p className="text-slate-500 text-xs">© 2026 Adetokunbo Ayodeji Consult Ltd. All rights reserved. CAC Registered: RC 8286332</p>
           <div className="flex gap-8">
             <a href="#" className="text-slate-500 hover:text-white text-xs transition-colors">Privacy Policy</a>
             <a href="#" className="text-slate-500 hover:text-white text-xs transition-colors">Terms of Service</a>
@@ -92,8 +94,8 @@ const FooterLink: React.FC<{ label: string; onClick?: () => void }> = ({ label, 
   </li>
 );
 
-const SocialIcon: React.FC<{ label: string }> = ({ label }) => (
-  <a href="#" className="w-10 h-10 flex items-center justify-center rounded-full bg-slate-800 hover:bg-primary transition-all text-xs font-bold border border-slate-700 hover:border-primary">
+const SocialIcon: React.FC<{ label: string; href?: string }> = ({ label, href = "#" }) => (
+  <a href={href} target="_blank" rel="noopener noreferrer" className="w-10 h-10 flex items-center justify-center rounded-full bg-slate-800 hover:bg-primary transition-all text-xs font-bold border border-slate-700 hover:border-primary">
     {label}
   </a>
 );
